@@ -77,7 +77,7 @@ The screenshots below show the private full edition as an operator-facing resear
 
 ### ASA Overview
 
-![ASA Overview](docs/screenshots/Screenshot_1.png)
+![ASA Overview](docs/screenshots/Screenshot_1A.png)
 
 ### Multi-Session Observatory
 
@@ -132,4 +132,3 @@ Part of: ASA - Asymmetric Stability Architecture
 Created by: Mieczyslaw Kusowski
 
 Research line: HumanAI / Symbioza2025
-
