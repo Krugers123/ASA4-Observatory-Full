@@ -29,6 +29,32 @@ ASA does not claim internal access to model reasoning.
 
 It operates externally, as an observability and trajectory-integrity layer.
 
+## Who This Layer Is For
+
+ASA4 Observatory Full Edition is designed for organizations that need to understand how AI behavior evolves across time, not only whether a single response looks correct.
+
+This includes:
+
+- AI research institutions studying long-horizon Human-AI interaction
+- AI labs evaluating semantic drift, coherence loss, and trajectory instability
+- companies building autonomous or agentic AI systems
+- enterprise AI safety and governance teams
+- model evaluation teams that need evidence beyond single-turn benchmarks
+- operators responsible for monitoring high-autonomy runtime behavior
+- research groups comparing stability across multiple sessions, prompts, models, or deployment contexts
+
+For research institutions, ASA4 provides a way to inspect how meaning, pressure, coherence, and recovery capacity change across a dialogue or multi-session field. It gives researchers a structured surface for studying trajectory-level instability before it becomes an obvious failure.
+
+For companies building AI systems, ASA4 is intended as an external observability layer that can sit beside the model or agent runtime. Its purpose is to help teams see early warning signs, review session evidence, compare patterns across runs, and prepare operator-readable reports without modifying the model itself.
+
+In practical terms, ASA4 is built for the gap between ordinary logging and full safety intervention:
+
+- logs show what happened
+- benchmarks show how a model performed on fixed tasks
+- ASA4 studies whether the trajectory itself remains stable over time
+
+That makes the layer especially relevant for long-running AI assistants, agentic workflows, enterprise copilots, research systems, and any environment where local fluency can hide gradual drift.
+
 ## Why This Repository Is Descriptive Only
 
 The full ASA4 Observatory contains private research logic, calibration work, experimental protocol composition, and operator-facing controls that are still under validation.
